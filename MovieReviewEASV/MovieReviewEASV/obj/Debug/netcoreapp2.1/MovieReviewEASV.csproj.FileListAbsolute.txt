@@ -1,0 +1,11 @@
+/Users/Hassuni/Projects/MovieReviewEASV/MovieReviewEASV/bin/Debug/netcoreapp2.1/MovieReviewEASV.deps.json
+/Users/Hassuni/Projects/MovieReviewEASV/MovieReviewEASV/bin/Debug/netcoreapp2.1/MovieReviewEASV.runtimeconfig.json
+/Users/Hassuni/Projects/MovieReviewEASV/MovieReviewEASV/bin/Debug/netcoreapp2.1/MovieReviewEASV.runtimeconfig.dev.json
+/Users/Hassuni/Projects/MovieReviewEASV/MovieReviewEASV/bin/Debug/netcoreapp2.1/MovieReviewEASV.dll
+/Users/Hassuni/Projects/MovieReviewEASV/MovieReviewEASV/bin/Debug/netcoreapp2.1/MovieReviewEASV.pdb
+/Users/Hassuni/Projects/MovieReviewEASV/MovieReviewEASV/obj/Debug/netcoreapp2.1/MovieReviewEASV.csprojAssemblyReference.cache
+/Users/Hassuni/Projects/MovieReviewEASV/MovieReviewEASV/obj/Debug/netcoreapp2.1/MovieReviewEASV.csproj.CoreCompileInputs.cache
+/Users/Hassuni/Projects/MovieReviewEASV/MovieReviewEASV/obj/Debug/netcoreapp2.1/MovieReviewEASV.AssemblyInfoInputs.cache
+/Users/Hassuni/Projects/MovieReviewEASV/MovieReviewEASV/obj/Debug/netcoreapp2.1/MovieReviewEASV.AssemblyInfo.cs
+/Users/Hassuni/Projects/MovieReviewEASV/MovieReviewEASV/obj/Debug/netcoreapp2.1/MovieReviewEASV.dll
+/Users/Hassuni/Projects/MovieReviewEASV/MovieReviewEASV/obj/Debug/netcoreapp2.1/MovieReviewEASV.pdb

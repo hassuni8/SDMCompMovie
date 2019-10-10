@@ -1,0 +1,18 @@
+[
+{ Reviewer:1, Movie:1488844, Grade:3, Date:'2005-09-06'}, 
+{ Reviewer:1, Movie:822109, Grade:5, Date:'2005-05-13'}, 
+{ Reviewer:1, Movie:885013, Grade:4, Date:'2005-10-19'}, 
+{ Reviewer:1, Movie:30878, Grade:4, Date:'2005-12-26'},
+{ Reviewer:2, Movie:2059652, Grade:4, Date:'2005-09-05'}, 
+{ Reviewer:2, Movie:1666394, Grade:3, Date:'2005-04-19'}, 
+{ Reviewer:2, Movie:1759415, Grade:4, Date:'2005-04-22'}, 
+{ Reviewer:2, Movie:1959936, Grade:5, Date:'2005-11-21'}, 
+{ Reviewer:2, Movie:998862, Grade:4, Date:'2004-11-13'}, 
+{ Reviewer:2, Movie:2625420, Grade:2, Date:'2004-12-06'},
+{ Reviewer:3, Movie:1025579, Grade:4, Date:'2003-03-29'}, 
+{ Reviewer:3, Movie:712664, Grade:5, Date:'2004-02-01'}, 
+{ Reviewer:3, Movie:1331154, Grade:4, Date:'2004-07-03'}, 
+{ Reviewer:3, Movie:2632461, Grade:3, Date:'2005-07-22'}, 
+{ Reviewer:3, Movie:44937, Grade:5, Date:'2004-06-22'}, 
+{ Reviewer:3, Movie:656399, Grade:4, Date:'2003-09-20'}
+]
