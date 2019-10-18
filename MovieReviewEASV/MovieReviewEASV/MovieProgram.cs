@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using Newtonsoft.Json;
@@ -12,12 +13,28 @@ namespace MovieReview
 
         public List<ReviewMovie> reviewsMovie;
 
+        public MovieProgram(string fileName)
+        {
+            Data(fileName);
+        }
+
         public void Data(string fileName)
         {
             using (StreamReader r = new StreamReader(fileName))
             {
                 string json = r.ReadToEnd();
                 reviewsMovie = JsonConvert.DeserializeObject<List<ReviewMovie>>(json);
+            }
+        }
+
+        public void GetTimeInSeconds(Action ac, int repeats)
+        {
+            for (int i = 0; i < repeats; i++)
+            {
+                Stopwatch sw = Stopwatch.StartNew();
+                ac.Invoke();
+                sw.Stop();
+                Console.WriteLine("Time = {0:f5}", sw.ElapsedMilliseconds / 1000.0);
             }
         }
 

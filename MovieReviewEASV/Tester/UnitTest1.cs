@@ -13,16 +13,14 @@ namespace Tester
         [TestMethod]
         public void TestGetReviews()
         {
-            MovieProgram movieProgram = new MovieProgram();
-            movieProgram.Data("MovieReviewEASV/Test.json");
+            MovieProgram movieProgram = new MovieProgram("MovieReviewEASV/Test.json");
             Assert.AreEqual(4, movieProgram.GetReviews(1));
         }
 
         [TestMethod]
         public void TestTestIsNegative()
         {
-            MovieProgram movieProgram = new MovieProgram();
-            movieProgram.Data("MovieReviewEASV/Test.json");
+            MovieProgram movieProgram = new MovieProgram("MovieReviewEASV/Test.json");
             Assert.IsFalse(movieProgram.GetReviews(1) < 0);
         }
 
@@ -30,8 +28,7 @@ namespace Tester
         [TestMethod]
         public void TestGetAvgGradeByReviewer()
         {
-            MovieProgram movieProgram = new MovieProgram();
-            movieProgram.Data("MovieReviewEASV/Test.json");
+            MovieProgram movieProgram = new MovieProgram("MovieReviewEASV/Test.json");
             Assert.AreEqual(4, movieProgram.GetAvgGradeByReviewer(1));
         }
 
@@ -39,16 +36,15 @@ namespace Tester
         [ExpectedException(typeof(Exception), "Missing grades from reviewer.")]
         public void TestGetAvgGradeByReviewerException()
         {
-            MovieProgram movieProgram = new MovieProgram();
-            movieProgram.Data("TestJsons/Test.json");
+            MovieProgram movieProgram = new MovieProgram("MovieReviewEASV/Test.json");
             movieProgram.GetAvgGradeByReviewer(4);
         }
 
-        // opgave 3
+        //3
         [TestMethod]
         public void TestGetReviewersSpecificGrade()
         {
-            MovieProgram movieProgram = new MovieProgram();
+            MovieProgram movieProgram = new MovieProgram("MovieReviewEASV/Test.json");
             movieProgram.Data("TestJsons/Test.json");
             Assert.AreEqual(3, movieProgram.GetReviewersSpecificGrade(2, 4));
         }
@@ -57,8 +53,7 @@ namespace Tester
         [TestMethod]
         public void TestNumberOfReviewsByMovie()
         {
-            MovieProgram movieProgram = new MovieProgram();
-            movieProgram.Data("TestJsons/Test.json");
+            MovieProgram movieProgram = new MovieProgram("MovieReviewEASV/Test.json");
             Assert.AreEqual(1, movieProgram.GetMoviesNumberOfReviews(1488844));
         }
 
@@ -66,8 +61,7 @@ namespace Tester
         [TestMethod]
         public void TestGetAvgMovieRating()
         {
-            MovieProgram movieProgram = new MovieProgram();
-            movieProgram.Data("TestJsons/Test.json");
+            MovieProgram movieProgram = new MovieProgram("MovieReviewEASV/Test.json");
             Assert.AreEqual(3, movieProgram.GetAvgMovieRating(1488844));
         }
 
@@ -76,8 +70,7 @@ namespace Tester
 
         public void TestGetAvgMovieRatingException()
         {
-            MovieProgram movieProgram = new MovieProgram();
-            movieProgram.Data("TestJsons/Test.json");
+            MovieProgram movieProgram = new MovieProgram("MovieReviewEASV/Test.json");
             movieProgram.GetAvgMovieRating(885014);
 
         }
@@ -86,8 +79,7 @@ namespace Tester
         [TestMethod]
         public void TestGetMoviesExactRating()
         {
-            MovieProgram movieProgram = new MovieProgram();
-            movieProgram.Data("TestJsons/Test.json");
+            MovieProgram movieProgram = new MovieProgram("MovieReviewEASV/Test.json");
             Assert.AreEqual(1, movieProgram.GetMoviesExactRating(1488844, 3));
         }
 
@@ -95,8 +87,7 @@ namespace Tester
         [TestMethod]
         public void TestGetHighestReviewsMovies()
         {
-            MovieProgram movieProgram = new MovieProgram();
-            movieProgram.Data("TestJsons/Test.json");
+            MovieProgram movieProgram = new MovieProgram("MovieReviewEASV/Test.json");
             Assert.AreEqual(822109, movieProgram.GetHighestReviewsMovies());
         }
 
@@ -104,8 +95,7 @@ namespace Tester
         [TestMethod]
         public void TestGetHighestReviewer()
         {
-            MovieProgram movieProgram = new MovieProgram();
-            movieProgram.Data("TestJsons/Test.json");
+            MovieProgram movieProgram = new MovieProgram("MovieReviewEASV/Test.json");
             Assert.AreEqual(2, movieProgram.GetHighestReviewer());
         }
 
@@ -113,24 +103,21 @@ namespace Tester
         [TestMethod]
         public void TestReviewerTopReviewedMovie()
         {
-            MovieProgram movieProgram = new MovieProgram();
-            movieProgram.Data("TestJsons/Test.json");
+            MovieProgram movieProgram = new MovieProgram("MovieReviewEASV/Test.json");
             Assert.AreEqual(822109, movieProgram.GetReviewersReviewedMovie(1).First());
         }
 
         [TestMethod]
         public void TestReviewedMovieByDateAtSameGrade()
         {
-            MovieProgram movieProgram = new MovieProgram();
-            movieProgram.Data("TestJsons/Test.json");
+            MovieProgram movieProgram = new MovieProgram("MovieReviewEASV/Test.json");
             Assert.AreEqual(885013, movieProgram.GetReviewersReviewedMovie(1).ElementAt(1));
         }
 
         [TestMethod]
         public void TestLowestReviewedMovie()
         {
-            MovieProgram movieProgram = new MovieProgram();
-            movieProgram.Data("TestJsons/Test.json");
+            MovieProgram movieProgram = new MovieProgram("MovieReviewEASV/Test.json");
             Assert.AreEqual(1488844, movieProgram.GetReviewersReviewedMovie(1).Last());
         }
 
@@ -138,24 +125,21 @@ namespace Tester
         [TestMethod]
         public void TestHighestReviewerByMovie()
         {
-            MovieProgram movieProgram = new MovieProgram();
-            movieProgram.Data("TestJsons/Test.json");
+            MovieProgram movieProgram = new MovieProgram("MovieReviewEASV/Test.json");
             Assert.AreEqual(1, movieProgram.GetReviewersFromMovie(822109).First());
         }
 
         [TestMethod]
         public void TestReviewerDateAtSameGrade()
         {
-            MovieProgram movieProgram = new MovieProgram();
-            movieProgram.Data("TestJsons/Test.json");
+            MovieProgram movieProgram = new MovieProgram("MovieReviewEASV/Test.json");
             Assert.AreEqual(2, movieProgram.GetReviewersFromMovie(822109).ElementAt(1));
         }
 
         [TestMethod]
         public void TestLowestReviewerOfMovie()
         {
-            MovieProgram movieProgram = new MovieProgram();
-            movieProgram.Data("TestJsons/Test.json");
+            MovieProgram movieProgram = new MovieProgram("MovieReviewEASV/Test.json");
             Assert.AreEqual(1, movieProgram.GetReviewersFromMovie(822109).Last());
         }
     }

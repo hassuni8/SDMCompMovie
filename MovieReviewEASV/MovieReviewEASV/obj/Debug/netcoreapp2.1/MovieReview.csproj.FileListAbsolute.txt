@@ -29,3 +29,13 @@ C:/Users/hassuni/Desktop/MovieReviewEASV/MovieReviewEASV/obj/Debug/netcoreapp2.1
 /Users/Hassuni/Downloads/MovieReviewEASV/MovieReviewEASV/obj/Debug/netcoreapp2.1/MovieReview.AssemblyInfo.cs
 /Users/Hassuni/Downloads/MovieReviewEASV/MovieReviewEASV/obj/Debug/netcoreapp2.1/MovieReview.dll
 /Users/Hassuni/Downloads/MovieReviewEASV/MovieReviewEASV/obj/Debug/netcoreapp2.1/MovieReview.pdb
+C:\Users\hassuni\Documents\GitHub\SDMCompMovie\MovieReviewEASV\MovieReviewEASV\obj\Debug\netcoreapp2.1\MovieReview.csprojAssemblyReference.cache
+C:\Users\hassuni\Documents\GitHub\SDMCompMovie\MovieReviewEASV\MovieReviewEASV\obj\Debug\netcoreapp2.1\MovieReview.AssemblyInfoInputs.cache
+C:\Users\hassuni\Documents\GitHub\SDMCompMovie\MovieReviewEASV\MovieReviewEASV\obj\Debug\netcoreapp2.1\MovieReview.AssemblyInfo.cs
+C:\Users\hassuni\Documents\GitHub\SDMCompMovie\MovieReviewEASV\MovieReviewEASV\obj\Debug\netcoreapp2.1\MovieReview.dll
+C:\Users\hassuni\Documents\GitHub\SDMCompMovie\MovieReviewEASV\MovieReviewEASV\obj\Debug\netcoreapp2.1\MovieReview.pdb
+C:\Users\hassuni\Documents\GitHub\SDMCompMovie\MovieReviewEASV\MovieReviewEASV\bin\Debug\netcoreapp2.1\MovieReview.deps.json
+C:\Users\hassuni\Documents\GitHub\SDMCompMovie\MovieReviewEASV\MovieReviewEASV\bin\Debug\netcoreapp2.1\MovieReview.runtimeconfig.json
+C:\Users\hassuni\Documents\GitHub\SDMCompMovie\MovieReviewEASV\MovieReviewEASV\bin\Debug\netcoreapp2.1\MovieReview.runtimeconfig.dev.json
+C:\Users\hassuni\Documents\GitHub\SDMCompMovie\MovieReviewEASV\MovieReviewEASV\bin\Debug\netcoreapp2.1\MovieReview.dll
+C:\Users\hassuni\Documents\GitHub\SDMCompMovie\MovieReviewEASV\MovieReviewEASV\bin\Debug\netcoreapp2.1\MovieReview.pdb

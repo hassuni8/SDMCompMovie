@@ -18,5 +18,8 @@ namespace MovieReview
          List<int> GetReviewersReviewedMovie(int reviewerId);
          List<int> GetReviewersFromMovie(int movieId);
 
+        void GetTimeInSeconds(Action ac, int repeats);
+
+
     }
 }

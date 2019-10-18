@@ -5577,35 +5577,37 @@
     ]
   },
   "packageFolders": {
-    "/Users/Hassuni/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\hassuni\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Hassuni/Downloads/MovieReviewEASV/Tester/Tester.csproj",
+      "projectUniqueName": "C:\\Users\\hassuni\\Documents\\GitHub\\SDMCompMovie\\MovieReviewEASV\\Tester\\Tester.csproj",
       "projectName": "Tester",
-      "projectPath": "/Users/Hassuni/Downloads/MovieReviewEASV/Tester/Tester.csproj",
-      "packagesPath": "/Users/Hassuni/.nuget/packages/",
-      "outputPath": "/Users/Hassuni/Downloads/MovieReviewEASV/Tester/obj/",
+      "projectPath": "C:\\Users\\hassuni\\Documents\\GitHub\\SDMCompMovie\\MovieReviewEASV\\Tester\\Tester.csproj",
+      "packagesPath": "C:\\Users\\hassuni\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hassuni\\Documents\\GitHub\\SDMCompMovie\\MovieReviewEASV\\Tester\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/Hassuni/.config/NuGet/NuGet.Config"
+        "C:\\Users\\hassuni\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "/Users/Hassuni/Downloads/MovieReviewEASV/MovieReviewEASV/MovieReview.csproj": {
-              "projectPath": "/Users/Hassuni/Downloads/MovieReviewEASV/MovieReviewEASV/MovieReview.csproj"
+            "C:\\Users\\hassuni\\Documents\\GitHub\\SDMCompMovie\\MovieReviewEASV\\MovieReviewEASV\\MovieReview.csproj": {
+              "projectPath": "C:\\Users\\hassuni\\Documents\\GitHub\\SDMCompMovie\\MovieReviewEASV\\MovieReviewEASV\\MovieReview.csproj"
             }
           }
         }
@@ -5648,7 +5650,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
